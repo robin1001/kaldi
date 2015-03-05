@@ -1,0 +1,4 @@
+* some personal kaldi script & program
+
+
++ fanbo: for kaldi alignment and get kaldi align time
