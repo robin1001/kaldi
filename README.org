@@ -2,3 +2,10 @@
 
 
 + fanbo: for kaldi alignment and get kaldi align time
++ dnn_scripts
+
+
+** keypoint
+- frame accuracy(nnet-loss.cc Xent)
+- alignment to triphone
+
