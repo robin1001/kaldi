@@ -6,8 +6,8 @@
 
 
 ** keypoint
-*** DONE frame accuracy(nnet-loss.cc Xent)
-*** TODO alignment to triphone
++ DONE frame accuracy(nnet-loss.cc Xent)
++ TODO alignment to triphone
 
 ** kaldi program tips TODO
 
