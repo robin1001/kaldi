@@ -11,10 +11,9 @@
 
 ** kaldi program tips TODO
 
-+ TODO uint test
++ DONE uint test
 + TODO thread wrap
-+ TODO log assert
++ DONE log assert
 + TODO io binary
 + TODO memory free
-+ TODO thread wrap
 
