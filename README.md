@@ -1,5 +1,8 @@
 # Personal Kaldi Script & Program & Note
 
+## HMM related
+* hmm matlab isolated word recognition: http://sourceforge.net/projects/hmm-asr-matlab/files/temp/
+
 
 ## Directory details
 * fanbo: for kaldi alignment and get kaldi align time
