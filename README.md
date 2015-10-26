@@ -20,6 +20,8 @@
 * TODO io binary
 * TODO memory free
 
+## Some Api
+* ConvertStringToInteger 整数转int
 
 ## Kadli Matrix Api
 
@@ -36,7 +38,6 @@ can not change size.
 * 向量内积 VecVec(vec1, vec2)
 * 加减均用 add: vec.AddVec(1.0, vec1) sub: vec.AddVec(-1.0, vec1)
 * Resize
-
 
 ### Matrix
 Matrix and SubMatrix are the child class of MatrixBase, and SubMatrix
