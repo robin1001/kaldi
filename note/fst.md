@@ -4,6 +4,7 @@
 
 ## Determine
 
+### Determine Algorithm
 * fst weight实现已解决,加两步后处理:
     1. 对每个label可达的子集，状态去重, 求最小权重
     2. 对所有状态weight取最小，即为该label（弧）上的权重
@@ -12,6 +13,7 @@
     1. residual output, 同weight residual weight
     2. 因此有的弧上是label的数组，这样输出新的fst时,根据该弧上的label数增加状态
 
+### Determine Kaldi Code
 * fst kaldi ProcessTransition
 ```cpp
   void ProcessTransition(OutputStateId state, Label ilabel, vector<Element> *subset) {
@@ -95,6 +97,7 @@
     output_arcs_[state].push_back(temp_arc);  // record the arc.
   }
 ```
+* fst kaldi ProcessTransition
 
 ```cpp
 
@@ -175,3 +178,9 @@
     }
   }
 ```
+
+### Determine Demo
+
+![FSA determine](img/fsa_determine.png)
+![FST determine 1](img/fst_determine1.png)
+![FSA determine 2](img/fst_determine2.png)
