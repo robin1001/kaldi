@@ -181,6 +181,8 @@
 
 ### Determine Demo
 
-![FSA determine](img/fsa_determine.png)
-![FST determine 1](img/fst_determine1.png)
-![FSA determine 2](img/fst_determine2.png)
+![FSA determine](img/fsa_determine.png "Weighted Fsa Determine")
+
+![FST determine 1](img/fst_determine1.png "FST Not Determine")
+
+![FSA determine 2](img/fst_determine2.png "FST Determine Graph")
