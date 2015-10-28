@@ -20,6 +20,11 @@
 * TODO io binary
 * TODO memory free
 
+## Speed Record
+* 3 * 2048 600-700h,一天可以跑到两轮
+* nnet2 gpu train configure --num-jobs-nnet 4 --num-threads 1
+* 
+
 ## Some Api
 * ConvertStringToInteger 整数转int
 
