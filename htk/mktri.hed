@@ -1,0 +1,5 @@
+CL tri
+TI T_a {(*-a+*,a+*,*-a).transP}
+TI T_b {(*-b+*,b+*,*-b).transP}
+TI T_c {(*-c+*,c+*,*-c).transP}
+TI T_d {(*-d+*,d+*,*-d).transP}
