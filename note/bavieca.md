@@ -6,7 +6,14 @@
 * TODO MI-Node处理
 * TODO LM lookahead
 * TODO LM state
+* TODO 词头尾可跳转的sil
 * TODO 语言模型cache
+* DONE push label作用
+
+## Key
+* fan-in和fan-out均指向相同的FI node，保证了词尾x+c和词头c-有相同的context, 解决了进入下一个lexicon-tree时的context连续问题
+* merge多次的原因: 下层节点的合并可能导致上层节点的再合并
+* push label 将单出度的FO节点的Word_ARC向前push，目的尽可能早的应用语言模型
 
 ## 剪枝 cut-off parameter
 * beam
@@ -88,6 +95,8 @@ HMM 决策树
 * FI MI FO 
 * 树的结构
 ![lexicon tree](img/lexicon_tree.jpg "Lexicon Tree")
+* Push Label
+![push label](img/push_label.jpg "Push Label")
 
 ## DynamicDecoderX
 * 
