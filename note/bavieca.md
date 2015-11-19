@@ -1,5 +1,27 @@
 # Note on Bavieca
 
+## TODO
+* TODO 叶子节点
+* TODO 单音素处理
+* TODO MI-Node处理
+* TODO LM lookahead
+* TODO LM state
+* TODO 语言模型cache
+
+## 剪枝 cut-off parameter
+* beam
+```cpp
+// pruning parameters
+//iMaxActiveNode
+int iMaxActiveArcs = configuration.getIntParameterValue("pruning.maxActiveArcs");
+int iMaxActiveArcsWE = configuration.getIntParameterValue("pruning.maxActiveArcsWE");
+//iMaxActiveTokenNode
+int iMaxActiveTokensArc = configuration.getIntParameterValue("pruning.maxActiveTokensArc");
+float fBeamWidthArcs = configuration.getFloatParameterValue("pruning.likelihoodBeam");
+float fBeamWidthArcsWE = configuration.getFloatParameterValue("pruning.likelihoodBeamWE");
+float fBeamWidthTokensArc = configuration.getFloatParameterValue("pruning.likelihoodBeamTokensArc");
+
+```
 
 ## PhoneSet
 顺序读入phone列表，分配id
@@ -63,4 +85,9 @@ HMM 决策树
 
 ## NetworkBuilderX
 * WW within-word CW cross-word
-* FO
+* FI MI FO 
+* 树的结构
+![lexicon tree](img/lexicon_tree.jpg "Lexicon Tree")
+
+## DynamicDecoderX
+* 
