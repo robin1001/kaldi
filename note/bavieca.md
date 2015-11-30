@@ -10,11 +10,13 @@
 * TODO 语言模型cache
 * TODO garbage collection
 * DONE push label作用
+* TODO Disk-Based Language Models
 
 ## Key
 * fan-in和fan-out均指向相同的FI node，保证了词尾x+c和词头c-有相同的context, 解决了进入下一个lexicon-tree时的context连续问题
 * merge多次的原因: 下层节点的合并可能导致上层节点的再合并
 * push label 将单出度的FO节点的Word_ARC向前push，目的尽可能早的应用语言模型
+* 单因素Word Node节点作用,减少弧和节点数，通过该节点中继到其他fi节点
 
 ## 剪枝 cut-off parameter
 * beam
